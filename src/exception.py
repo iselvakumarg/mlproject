@@ -2,6 +2,7 @@
 This code contains the custom exception error msg formatting of the project
 """
 import sys
+from logger import logging
 
 def error_message_detail(error, error_detail: sys):
     """
